@@ -3,6 +3,7 @@ import './globals.css'
 import type { Metadata } from 'next'
 import { Fira_Code } from 'next/font/google'
 
+import { Footer } from '@/components/footer'
 import { Header } from '@/components/header'
 import { ToggleMenuProvider } from '@/contexts/toggle-menu-mobile'
 
@@ -27,6 +28,7 @@ export default function RootLayout({
             <main className="flex flex-1 flex-col bg-primary-mid-blue">
               {children}
             </main>
+            <Footer />
           </ToggleMenuProvider>
         </div>
       </body>
