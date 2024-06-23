@@ -1,4 +1,4 @@
-export function Footer() {
+export async function Footer() {
   return (
     <footer className="bg-primary-mid-blue px-5 py-6">
       <p className="text-secondary-light-gray">

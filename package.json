@@ -3,25 +3,30 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
+    "dev": "i18nexus pull && next dev",
+    "build": "i18nexus pull && next build",
+    "start": "i18nexus pull && next start",
     "lint": "next lint"
   },
   "dependencies": {
     "clsx": "^2.1.1",
     "embla-carousel-autoplay": "^8.1.5",
     "embla-carousel-react": "^8.1.5",
+    "i18next": "^23.11.5",
+    "i18next-resources-to-backend": "^1.2.1",
     "keen-slider": "^6.8.6",
     "lucide-react": "^0.376.0",
     "next": "14.2.3",
+    "next-i18n-router": "^5.5.0",
     "react": "^18",
     "react-dom": "^18",
+    "react-i18next": "^14.1.2",
     "tailwind-merge": "^2.3.0",
     "tailwind-variants": "^0.2.1",
     "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
+    "@radix-ui/react-popover": "^1.1.1",
     "@rocketseat/eslint-config": "^2.2.2",
     "@types/node": "^20",
     "@types/react": "^18",

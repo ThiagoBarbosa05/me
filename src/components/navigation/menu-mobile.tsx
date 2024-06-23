@@ -36,7 +36,7 @@ export function MenuMobile() {
     <div
       data-state={isOpen}
       className={twMerge(
-        'z-40 mt-2 flex flex-col justify-center  overflow-hidden bg-primary-mid-blue transition-all duration-200 data-[state=false]:m-0 data-[state=false]:h-0 data-[state=true]:h-28',
+        'z-40 mt-2 flex flex-col justify-center  overflow-hidden bg-primary-mid-blue transition-all duration-200 data-[state=false]:m-0 data-[state=false]:h-0 data-[state=true]:h-28 data-[state=true]:w-0',
       )}
     >
       <nav className="text-white">

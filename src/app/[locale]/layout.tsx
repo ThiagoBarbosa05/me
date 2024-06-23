@@ -1,4 +1,4 @@
-import './globals.css'
+import '../../app/globals.css'
 
 import type { Metadata } from 'next'
 import { Fira_Code } from 'next/font/google'
@@ -25,7 +25,7 @@ export default function RootLayout({
         <div className="flex min-h-screen flex-col">
           <ToggleMenuProvider>
             <Header />
-            <main className="flex flex-1 flex-col bg-primary-mid-blue">
+            <main className="flex flex-1 flex-col bg-primary-mid-blue pt-14">
               {children}
             </main>
             <Footer />
